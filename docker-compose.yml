@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  document.api:
+    image: ${DOCKER_REGISTRY}documentapi
+    build:
+      context: .
+      dockerfile: Document.API/Dockerfile

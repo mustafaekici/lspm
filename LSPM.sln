@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{91BDDDAD-6875-4D21-9C97-89355D485270}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A138B14D-2948-4E85-B17D-2374F7B9BF1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{9B560560-12A7-4261-8E92-E98099AC7F57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Document.API", "Document.API\Document.API.csproj", "{59165643-C0A6-4CC0-950E-72018EBA62F1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0DC6DECF-B29E-4BCA-B020-013049484F7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Document.Business", "Document.Business\Document.Business.csproj", "{C44FC97C-6EF7-4CD8-89B6-0DF4BF6E1A98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Document", "Infrastructure.Document\Infrastructure.Document.csproj", "{15AEDDD2-5327-440B-A208-8D8631D80B6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{E9F46A34-A19A-4DF8-B230-0DB6858E8D6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Core", "Shared.Core\Shared.Core.csproj", "{DFCB82A8-9A33-400C-AC27-75C5D5B0DF6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.Security", "Identity.Security\Identity.Security.csproj", "{5629025D-21A9-48BE-9278-DFA993FD4719}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{6383508A-A5B5-4FE9-8B41-A3D331EA7F76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Contracts", "Shared.Contracts\Shared.Contracts.csproj", "{A56E1D40-54F1-4AE0-9CFB-13F7279CF6C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Core.Web", "Shared.Core.Web\Shared.Core.Web.csproj", "{30DB5E42-09D1-4484-AFBF-27B47F68A1CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Main", "Infrastructure.Main\Infrastructure.Main.csproj", "{98E5A338-1BAB-4871-AACD-5A761EA46135}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59165643-C0A6-4CC0-950E-72018EBA62F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59165643-C0A6-4CC0-950E-72018EBA62F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59165643-C0A6-4CC0-950E-72018EBA62F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59165643-C0A6-4CC0-950E-72018EBA62F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC6DECF-B29E-4BCA-B020-013049484F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC6DECF-B29E-4BCA-B020-013049484F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC6DECF-B29E-4BCA-B020-013049484F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC6DECF-B29E-4BCA-B020-013049484F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44FC97C-6EF7-4CD8-89B6-0DF4BF6E1A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44FC97C-6EF7-4CD8-89B6-0DF4BF6E1A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44FC97C-6EF7-4CD8-89B6-0DF4BF6E1A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44FC97C-6EF7-4CD8-89B6-0DF4BF6E1A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AEDDD2-5327-440B-A208-8D8631D80B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AEDDD2-5327-440B-A208-8D8631D80B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AEDDD2-5327-440B-A208-8D8631D80B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AEDDD2-5327-440B-A208-8D8631D80B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCB82A8-9A33-400C-AC27-75C5D5B0DF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCB82A8-9A33-400C-AC27-75C5D5B0DF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCB82A8-9A33-400C-AC27-75C5D5B0DF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCB82A8-9A33-400C-AC27-75C5D5B0DF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5629025D-21A9-48BE-9278-DFA993FD4719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5629025D-21A9-48BE-9278-DFA993FD4719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5629025D-21A9-48BE-9278-DFA993FD4719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5629025D-21A9-48BE-9278-DFA993FD4719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56E1D40-54F1-4AE0-9CFB-13F7279CF6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56E1D40-54F1-4AE0-9CFB-13F7279CF6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56E1D40-54F1-4AE0-9CFB-13F7279CF6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56E1D40-54F1-4AE0-9CFB-13F7279CF6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DB5E42-09D1-4484-AFBF-27B47F68A1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DB5E42-09D1-4484-AFBF-27B47F68A1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DB5E42-09D1-4484-AFBF-27B47F68A1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DB5E42-09D1-4484-AFBF-27B47F68A1CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E5A338-1BAB-4871-AACD-5A761EA46135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E5A338-1BAB-4871-AACD-5A761EA46135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E5A338-1BAB-4871-AACD-5A761EA46135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E5A338-1BAB-4871-AACD-5A761EA46135}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B560560-12A7-4261-8E92-E98099AC7F57} = {A138B14D-2948-4E85-B17D-2374F7B9BF1B}
+		{59165643-C0A6-4CC0-950E-72018EBA62F1} = {9B560560-12A7-4261-8E92-E98099AC7F57}
+		{C44FC97C-6EF7-4CD8-89B6-0DF4BF6E1A98} = {9B560560-12A7-4261-8E92-E98099AC7F57}
+		{15AEDDD2-5327-440B-A208-8D8631D80B6C} = {91BDDDAD-6875-4D21-9C97-89355D485270}
+		{DFCB82A8-9A33-400C-AC27-75C5D5B0DF6E} = {E9F46A34-A19A-4DF8-B230-0DB6858E8D6B}
+		{5629025D-21A9-48BE-9278-DFA993FD4719} = {6383508A-A5B5-4FE9-8B41-A3D331EA7F76}
+		{6383508A-A5B5-4FE9-8B41-A3D331EA7F76} = {A138B14D-2948-4E85-B17D-2374F7B9BF1B}
+		{A56E1D40-54F1-4AE0-9CFB-13F7279CF6C8} = {E9F46A34-A19A-4DF8-B230-0DB6858E8D6B}
+		{30DB5E42-09D1-4484-AFBF-27B47F68A1CB} = {E9F46A34-A19A-4DF8-B230-0DB6858E8D6B}
+		{98E5A338-1BAB-4871-AACD-5A761EA46135} = {91BDDDAD-6875-4D21-9C97-89355D485270}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B725D48C-87B7-401F-9FBC-4B3C337662A2}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mustechsoftwaresolutions.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Infrastructure.Main\\Infrastructure.Main.csproj
+		SccProjectTopLevelParentUniqueName1 = LSPM.sln
+		SccProjectName1 = Infrastructure.Main
+		SccLocalPath1 = Infrastructure.Main
+		SccProjectUniqueName2 = Infrastructure.Document\\Infrastructure.Document.csproj
+		SccProjectTopLevelParentUniqueName2 = LSPM.sln
+		SccProjectName2 = Infrastructure.Document
+		SccLocalPath2 = Infrastructure.Document
+		SccProjectUniqueName3 = Document.API\\Document.API.csproj
+		SccProjectTopLevelParentUniqueName3 = LSPM.sln
+		SccProjectName3 = Document.API
+		SccLocalPath3 = Document.API
+		SccProjectUniqueName4 = Document.Business\\Document.Business.csproj
+		SccProjectTopLevelParentUniqueName4 = LSPM.sln
+		SccProjectName4 = Document.Business
+		SccLocalPath4 = Document.Business
+		SccProjectUniqueName5 = Identity.Security\\Identity.Security.csproj
+		SccProjectTopLevelParentUniqueName5 = LSPM.sln
+		SccProjectName5 = Identity.Security
+		SccLocalPath5 = Identity.Security
+		SccProjectUniqueName6 = Shared.Contracts\\Shared.Contracts.csproj
+		SccProjectTopLevelParentUniqueName6 = LSPM.sln
+		SccProjectName6 = Shared.Contracts
+		SccLocalPath6 = Shared.Contracts
+		SccProjectUniqueName7 = Shared.Core.Web\\Shared.Core.Web.csproj
+		SccProjectTopLevelParentUniqueName7 = LSPM.sln
+		SccProjectName7 = Shared.Core.Web
+		SccLocalPath7 = Shared.Core.Web
+		SccProjectUniqueName8 = Shared.Core\\Shared.Core.csproj
+		SccProjectTopLevelParentUniqueName8 = LSPM.sln
+		SccProjectName8 = Shared.Core
+		SccLocalPath8 = Shared.Core
+	EndGlobalSection
+EndGlobal
